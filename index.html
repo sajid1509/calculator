@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div>
+	<div class="first">
+     <center> <h2>CALCULATOR</h2></center>
+	</div>
+	<div class="out">
+    <div class="inp">
+      <label>Number 1</label>
+      <input type="number"  id="inpu1"><br>
+      <div id="sym">
+        <p id="kk"></p>
+      </div>
+      <label>Number 2</label>
+      <input type="number" id="inpu2" >
+    </div>
+    <div class="rr">
+      <label>Result</label>
+      <div class="rem">
+    	<h2 id="res"></h2>
+    </div>
+    </div>
+    <div class="oper">
+      <div class="ad">
+      <input type='submit'  value="Add" id="btn" onclick=addin()>
+      <input type='submit' id="btn"  value="sub" onclick=subs()>
+    </div>
+    <div class="mu">
+      <input type='submit' id="btn" value="mul" onclick=multi()>
+      <input type='submit' id="btn" value="div" onclick=divi()>
+    </div>
+    </div>
+    <div class="btt">
+      <input type='submit' id="btn1" value="Reset" onclick=window.location.reload()>
+    </div>
+</div>
+</div>
+<script src="design.js"></script>
+</body>
+</html>

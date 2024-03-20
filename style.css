@@ -1,0 +1,75 @@
+.out{
+	border-style: solid;
+	height:500px;
+	width:500px ;
+	margin: auto;
+}
+.inp{
+	margin: auto;
+	width:500px;
+    font-size:30px;
+
+}
+label{
+	padding-right:30px;
+	padding-left:50px ;
+}
+#inpu1,#inpu2{
+	padding-top: 20px;
+	margin-top:10px;
+	width:200px;
+}
+#sym{
+    border-style: solid;
+	height:30px;
+	width:40px;
+	margin-top:10px;
+	margin-left:58% ;
+}
+#res{
+	margin: auto;
+}
+.rr{
+	display:flex;
+	
+	height: 50px;
+    padding-top:20px;
+}
+.rr label{
+	font-size: 30px;
+}
+#btn,#btn1{
+	height:50px;
+	width:100px;
+}
+.oper{
+	margin:auto;
+	margin-top:10%;
+
+}
+.ad,.mu{
+	display: flex;
+	justify-content: space-around;
+	margin: 30px;
+
+}
+#btn:hover{
+	background: green;
+}
+.rem{
+	border-style: solid;
+	height:40px;
+	width:210px;
+	margin-left: 50px;
+
+}
+#kk{
+	margin:auto;
+	margin-left: 12px;
+}
+.btt{
+	margin-left:40%;
+}
+#btn1:hover{
+	background: red;
+}
